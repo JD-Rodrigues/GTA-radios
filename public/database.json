@@ -1,0 +1,149 @@
+{
+  "radios": [
+    {
+      "name":"Channel X", 
+      "poster_path":"/ChannelX-GTAV.svg",
+      "player_path":"http://stream-42.zeno.fm/xx7n93ef84zuv?zs=99Vp-DgXS5yI4XYY6lLKEg",
+      "game":"GTA V",
+      "genres": [
+        "Punk Rock", 
+        "Hardcore Punk"
+      ]
+    },
+    {
+      "name": "Emotion 98.3",
+      "poster_path":"/Emotion98.3-GTAVC.png",
+      "player_path":"http://stream-50.zeno.fm/isp2psuhvfsuv?zs=Jf7fe4PNRSKyRuW_q3MZnQ",
+      "game":"GTA Vice City",
+      "genres": [
+        "Pop Rock", 
+        "Power Ballad"
+      ]
+    },
+    {
+      "name": "Flash FM",
+      "poster_path":"/FlashFM.png",
+      "player_path":"http://stream-54.zeno.fm/kyr5t7emk4cvv?zs=teJWaNc1TEq8vNBTl-wtsg",
+      "game":"GTA Vice City",
+      "genres": [
+        "Pop"
+      ]
+    },
+    {
+      "name": "Game Radio",
+      "poster_path":"/GameRadio.png",
+      "player_path":"http://stream-59.zeno.fm/t6qgtfgv3r5uv?zs=tfEgYx3mRpqSXdLzGAiH9g",
+      "game":"GTA III",
+      "genres": [
+        "Hip Hop",
+        "Gangsta Rap"
+      ]
+    },
+    {
+      "name": "K-JAH",
+      "poster_path":"/K-JahRadio-GTAIII.svg",
+      "player_path":"http://stream-42.zeno.fm/0lzcavbfypxvv?zs=oink7dPcS4i_k_fmpL8YHg",
+      "game":"GTA III",
+      "genres": [
+        "Dub", 
+        "Reggae"
+      ]
+    },
+    {
+      "name": "K-Rose",
+      "poster_path":"/K-Rose-GTASA.svg",
+      "player_path":"http://stream-47.zeno.fm/gpl92fgtndmuv?zs=Og6N9Yp8SjW5WNQZZ8L6tA",
+      "game":"GTA San Andreas",
+      "genres": [
+        "Country",
+        "Country Rock",
+        "Country Blues"
+      ]
+    },
+    {
+      "name": "King 130.7",
+      "poster_path":"/King-GTAII.png",
+      "player_path":"http://stream-42.zeno.fm/jbbrezn5us0vv?zs=s_stdBi8QvKYhhV18MLU3w",
+      "game":"GTA II",
+      "genres": [
+        "Punk",
+        "Hard Rock"
+      ]
+    },
+    {
+      "name": "K-JAH West",
+      "poster_path":"/KJAHWest-GTASA.png",
+      "player_path":"http://stream-43.zeno.fm/kp4arxinf0qtv?zs=TYwgvwAwQf2NVaeAViDEKg",
+      "game":"GTA San Andreas",
+      "genres": [
+        "Reggae",
+        "Dub"
+      ]
+    },
+    {
+      "name": "KREZ",
+      "poster_path":"/KREZ_GTAII.png",
+      "player_path":"http://stream-41.zeno.fm/4gd1n8j7kq2tv?zs=PDYyBtOSR9q9YrThkmtKzw",
+      "game":"GTA II",
+      "genres": [
+        "Hip Hop",
+        "Gangsta Rap"
+      ]
+    },
+    {
+      "name": "Liberty Rock Radio",
+      "poster_path":"/Liberty_Rock_GTAIV.png",
+      "player_path":"http://stream-54.zeno.fm/6lfhvlfwqmwtv?zs=gcX6zC1QQH6QDwKGDt1jjQ",
+      "game":"GTA IV",
+      "genres": [
+        "Classic Rock"
+      ]
+    },
+    {
+      "name": "Radio Los Santos",
+      "poster_path":"/RadioLosSantos-GTAV.svg",
+      "player_path":"http://stream-57.zeno.fm/nkkio893yvhvv?zs=KbNNYwHMRnuSrOkJRfNlMA",
+      "game":"GTA San Andreas",
+      "genres": [
+        "Hip Hop"
+      ]
+    },
+    {
+      "name": "Radio X",
+      "poster_path":"/RadioX-GTASA.png",
+      "player_path":"http://stream-50.zeno.fm/lami165b6yavv?zs=BdT73p8SQH2K8ofUJVtNJQ",
+      "game":"GTA San Andreas",
+      "genres": [
+        "Alternative Rock",
+        "Grunge",
+        "Herd Rock",
+        "Heavy Metal"
+      ]
+    },
+    {
+      "name": "The Classics 104.1",
+      "poster_path":"/The_Classics-GTAIV.png",
+      "player_path":"http://stream-43.zeno.fm/adowmgiscfauv?zs=y1IsT2XlTK2L2BjY3lxLUQ",
+      "game":"GTA IV",
+      "genres": [
+        "Hip Hop",
+        "Old Scholl Hip Hop",
+        "Classic Hip Hop",
+        "East Coast Hip Hop"        
+      ]
+    },
+    {
+      "name": "West Coast Classics",
+      "poster_path":"/WestCoastClassics-GTAV.svg",
+      "player_path":"http://stream-52.zeno.fm/z5tgng6hulfvv?zs=Jyg6RuFUR7St7jUm2_Y0Fg",
+      "game":"GTA V",
+      "genres": [
+        "Hip Hop",
+        "Old Scholl Hip Hop",
+        "Classic Hip Hop",
+        "West Coast Hip Hop"
+      ]
+    }
+  ]
+}
+
