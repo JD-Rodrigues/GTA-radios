@@ -22,3 +22,11 @@
     padding: 15px;
   }
 }
+
+@media (max-width:400px) {
+  .card__player {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+}
