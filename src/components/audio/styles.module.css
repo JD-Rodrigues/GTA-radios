@@ -25,6 +25,8 @@
 
 @media (max-width:500px) {
   .card__player {
+    width: 100px;
+    height: 100px;
     padding: 5px;
   }
 }
