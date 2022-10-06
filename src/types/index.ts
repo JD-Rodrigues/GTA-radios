@@ -1,3 +1,4 @@
 export interface IAudioProps {
-  url:string
+  url:string;
+  poster: string;
 }

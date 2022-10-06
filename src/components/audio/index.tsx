@@ -1,10 +1,17 @@
-import { IAudioProps } from "../../assets/types"
+import { IAudioProps } from "../../types"
+import styles from "./styles.module.css"
 
 
-export const Player = ({url}:IAudioProps) => {
+export const Player = ({url, poster}:IAudioProps) => {
   return(
-    <audio controls preload="auto">
-      <source src={url} type="audio/mp3" />
-    </audio>
+    <div className={styles.card__player}>
+      <div className={styles.poster} style={{backgroundImage: `url("${poster}")`}}>
+        <audio preload="auto">
+          <source src={url} type="audio/mp3" />
+        </audio>
+      </div>
+      
+    </div>
+    
   ) 
 }   
