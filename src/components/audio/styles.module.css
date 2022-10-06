@@ -19,14 +19,33 @@
 }
 
 .play__pause {
+  position: relative;
   width: 40px;
   height: 40px; 
 }
 
 .play__pause img {
+  position: absolute;
   width: 100%;
   border-radius: 50%;
 }
+
+@keyframes spinning__wheel {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.spinning__wheel {
+  width: 100%;
+  height: 100%;
+  animation-name: spinning__wheel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
 
 @media (max-width: 768px) {
   .card__player {
