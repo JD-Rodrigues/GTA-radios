@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react"
 import "./App.css"
-import { Player } from "./components/audio"
+import { Player } from "./components/player"
+
 
 function App() {
-
   const [radios, setRadio] = useState([{player_path:"",name:"", poster_path:""}])
-  function play() {
-    const audio = document.querySelector("audio") as HTMLAudioElement
-    audio.play()
-  }
+  const [broadcast, setBroadcast] = useState("")
+
+
   const getData = async ()=> {
     const database = await fetch("database.json")
     const databaseJson = await database.json()
@@ -16,13 +15,12 @@ function App() {
     console.log(radios) 
   }
 
+  
+
   useEffect(()=>{
-    getData()
-    
+    getData()   
     
   },[])
-
-  
 
 
   return (
@@ -31,13 +29,9 @@ function App() {
         <h1 className="logo">gta radios</h1>
       </header>
       <main className="container">
-        <div className="radios__pad container">
-          {radios && radios.map(radio=> <Player key={radio.name} url={radio.player_path} poster={radio.poster_path}/>)}
-        </div>
-        
-          
-          
-
+        <ul className="radios__pad container">
+          {radios && radios.map(radio=> <li key={radio.name}><Player url={radio.player_path} poster={radio.poster_path}/></li>)}
+        </ul>    
       </main>
     </div>
   )
