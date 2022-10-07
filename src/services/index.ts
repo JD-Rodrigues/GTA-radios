@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const streamingControl = (id:string) => {
   const audios = document.querySelectorAll("audio")
