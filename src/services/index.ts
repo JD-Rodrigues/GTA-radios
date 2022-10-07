@@ -1,3 +1,6 @@
 import React from "react";
 
-// const streamingControl = () => ()
+export const streamingControl = (id:string) => {
+  const audios = document.querySelectorAll("audio")
+  audios.forEach(audio=> audio.id !== id && audio.pause())
+}
