@@ -6,7 +6,7 @@
 <h2>Sobre:</h2>
 <p>Aplicativo de rádios com as estações da franquia de games Grand Theft Auto.</p>
 <p>Live: <a href="http://gta-radios.vercel.app/">gta-radios.vercel.app</a></p><br>
-<div align="center"><img  src="../GTA-radios/public/images/screen.gif"></img></div><br>
+<div align="center"><img  src="./public/images/screen.gif" /></div><br>
 <h2>Objetivo:</h2>
 <p>Projeto desenvolvido com o intuito de praticar o uso da biblioteca React na implementação de diversos players de audio personalizados, consumindo urls de transmissão de um servidor de rádios.</p>
 <h2>Funcionalidades:</h2>
